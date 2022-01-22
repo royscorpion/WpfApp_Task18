@@ -52,7 +52,7 @@
                 </ModelVisual3D>
             </Viewport3D.Children>
         </Viewport3D>
-        <StackPanel Orientation="Vertical" Grid.Row="2">
+        <StackPanel Orientation="Vertical" Grid.Row="1">
             <Slider Minimum="0" Maximum="360"
                     Orientation="Horizontal"
                     Value="{Binding ElementName=rotate, Path=Angle}" />
